@@ -14,5 +14,4 @@ const findFibonacciCombination = (target) => {
   result.push(result[0] * result[1] === target);
   return result;
 };
-
-console.log(findFibonacciCombination(target));
+findFibonacciCombination(target);
